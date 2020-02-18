@@ -87,16 +87,11 @@ body {
 	text-align: center;
 	
 	
-}.services-nav{
-    display: flex;	 
+}
+ .service-nav{
+    display: flex ;	 
     flex-wrap: nowrap;
-	justify-content: space-evenly; 
-	margin: 0 auto;
-	/*vertical-align: top;*/	
-	background: white;	
-	width: 100%;
-	height: 30px;	
-	text-align: center;
+	
 }
 
 nav a {
@@ -220,12 +215,18 @@ ul{
         flex-direction: column-reverse;
         align-items: center;
     }
+    .service-nav{
+        flex-direction: column-reverse;
+    }
     .logo{
         max-width: 400px;
         margin: 20px 0;
     }
     .main-heading{
         margin: 35px 0 0 25px;
+    }
+    .middle-img{
+        display: none;
     }
     .round-img{
         display: none;
